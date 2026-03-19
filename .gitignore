@@ -2,6 +2,9 @@
 .thumbs.db
 node_modules
 
+# Build output
+/dist
+
 # Quasar core related directories
 .quasar
 /quasar.config.*.temporary.compiled*
