@@ -1,9 +1,11 @@
 <template>
   <q-page
     :class="[$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-2']"
-    class="q-pa-md flex flex-center column"
+    class="q-pa-md"
     style="min-height: 100vh"
   >
+    <div class="row q-col-gutter-md justify-center items-start">
+      <div class="col-12 col-md-auto">
     <q-card class="q-pa-lg shadow-10" style="max-width: 500px; width: 100%">
       <q-card-section align="center">
         <q-avatar size="100px" class="bg-primary">
@@ -96,6 +98,12 @@
         <q-btn flat dense icon="translate" @click="toggleLang" :label="currentLang.toUpperCase()" />
       </q-card-actions>
     </q-card>
+      </div>
+
+      <div class="col-12 col-md-auto flex flex-center">
+        <BreachInfoBox :lang="currentLang" />
+      </div>
+    </div>
   </q-page>
 </template>
 
@@ -106,6 +114,7 @@ import type { ZXCVBNFeedback } from 'zxcvbn';
 import sha1 from 'crypto-js/sha1';
 import encHex from 'crypto-js/enc-hex';
 import { useQuasar } from 'quasar';
+import BreachInfoBox from 'src/components/BreachInfoBox.vue';
 
 const $q = useQuasar();
 const password = ref('');

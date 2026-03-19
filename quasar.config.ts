@@ -50,7 +50,7 @@ export default defineConfig((/* ctx */) => {
       },
       publicPath:
         process.env.NODE_ENV === 'production'
-          ? '/LesSupersIngenieursCitoyensEtClement/' // GitHub Pages
+          ? '/webapp/' // GitHub Pages (CesiTonMDP/webapp)
           : '/', // Dev local
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       // vueRouterBase,
