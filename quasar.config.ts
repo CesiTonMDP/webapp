@@ -18,8 +18,8 @@ export default defineConfig((/* ctx */) => {
     
     // Ajouter ces lignes au début de la configuration
     htmlVariables: {
-      productName: 'Password Checker',
-      productDescription: 'A Quasar Project to check the strength of a password'
+      productName: 'CesiTonMDP',
+      productDescription: 'Générateur/vérificateur de mots de passe sécurisé et facile à utiliser',
     },
 
     // https://github.com/quasarframework/quasar/tree/dev/extras

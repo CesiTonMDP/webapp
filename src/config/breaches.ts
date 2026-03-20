@@ -20,12 +20,35 @@ export interface BreachEntry {
 
 export const recentBreaches: BreachEntry[] = [
   {
+    company: 'Direction Générale des Finances Publiques',
+    date: '2026-02-18',
+    records: 1200000,
+    dataTypes: ['email', 'nom', 'prénom', 'adresse', 'numéro fiscal', "RIB/IBAN"],
+    country: 'France',
+    source: 'https://frenchbreaches.com/alertes/direction-g-n-rale-des-finances-publiques-mlsb563td3sb6g2voxn',
+  },
+  {
+    company: 'Stych',
+    date: '2026-03-08',
+    records: 1300000,
+    dataTypes: ['email', 'adresse', 'nom', 'prénom', 'telephone'],
+    country: 'France',
+    source: 'https://www.zataz.com/1-million-de-comptes-stych-pirates/',
+  },
+  {
+    company: 'Fédération Française de Rugby',
+    date: '2026-03-17',
+    records: 530000,
+    dataTypes: ['email', 'nom', 'prénom', 'date de naissance', 'numéro de licence'],
+    country: 'France',
+    source: 'https://frenchbreaches.com/blog/piratage-federation-francaise-de-rugby-530-000-licencies-concernes-photos-de-mineurs-et-cni-exposees',
+  },
+  {
     company: 'Free',
-    date: '2024-10-21',
+    date: '2025-10-21',
     records: 19200000,
     dataTypes: ['email', 'nom', 'adresse', 'téléphone', 'IBAN'],
     country: 'France',
-    source: 'https://www.numerama.com/cyberguerre/1835895-free-confirme-une-cyberattaque-et-une-fuite-de-donnees-de-ses-abonnes.html',
   },
   {
     company: 'SFR',
@@ -33,7 +56,6 @@ export const recentBreaches: BreachEntry[] = [
     records: 3600000,
     dataTypes: ['email', 'nom', 'adresse', 'téléphone'],
     country: 'France',
-    source: 'https://www.numerama.com/cyberguerre/1788879-sfr-confirme-une-fuite-de-donnees-de-36-millions-dabonnes.html',
   },
   {
     company: 'Viamedis',
@@ -41,7 +63,6 @@ export const recentBreaches: BreachEntry[] = [
     records: 33000000,
     dataTypes: ['email', 'date de naissance', 'numéro de sécurité sociale', 'mutuelle'],
     country: 'France',
-    source: 'https://www.cnil.fr/fr/violation-de-donnees-de-viamedis-et-almerys-les-points-cles',
   },
   {
     company: 'Almerys',
@@ -49,7 +70,6 @@ export const recentBreaches: BreachEntry[] = [
     records: 33000000,
     dataTypes: ['email', 'date de naissance', 'numéro de sécurité sociale', 'mutuelle'],
     country: 'France',
-    source: 'https://www.cnil.fr/fr/violation-de-donnees-de-viamedis-et-almerys-les-points-cles',
   },
   {
     company: 'France Travail (Pôle Emploi)',
@@ -57,7 +77,6 @@ export const recentBreaches: BreachEntry[] = [
     records: 43000000,
     dataTypes: ['nom', 'prénom', 'date de naissance', 'numéro de sécurité sociale', 'email', 'téléphone'],
     country: 'France',
-    source: 'https://www.cnil.fr/fr/france-travail-pole-emploi-violation-de-donnees',
   },
   {
     company: 'Molotov',
