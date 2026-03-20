@@ -61,8 +61,8 @@
       <div class="text-caption text-grey-6">
         {{
           lang === 'fr'
-            ? 'Source : données publiques. Modifiable dans src/config/breaches.ts'
-            : 'Source: public data. Editable in src/config/breaches.ts'
+            ? 'Source : données publiques.'
+            : 'Source: public data.'
         }}
       </div>
     </q-card-section>
