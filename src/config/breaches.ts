@@ -19,11 +19,11 @@ export interface BreachEntry {
 }
 
 export const recentBreaches: BreachEntry[] = [
-    {
+   {
     company: 'E-campus (Police Nationale)',
     date: '2026-04-15',
     records: 176000,
-    dataTypes: ['email', 'nom', 'prénom', 'adresse', "Informations de compte Police"],
+    dataTypes: ['email', 'nom', 'prénom', 'adresse', 'Informations de compte Police'],
     country: 'France',
     source: 'https://frenchbreaches.com/alertes/e-campus-police-nationale--mo0ah8spmz9fiiyowa',
   },
@@ -31,7 +31,7 @@ export const recentBreaches: BreachEntry[] = [
     company: 'Basic Fit',
     date: '2026-04-13',
     records: 1000000,
-    dataTypes: ['email', 'nom', 'prénom', 'adresse', "RIB/IBAN"],
+    dataTypes: ['email', 'nom', 'prénom', 'adresse', 'RIB/IBAN'],
     country: 'France',
     source: 'https://frenchbreaches.com/alertes/basic-fit-mnwz7351s4inuhnn5b',
   },
@@ -39,7 +39,7 @@ export const recentBreaches: BreachEntry[] = [
     company: 'KFC',
     date: '2026-04-07',
     records: 1000000,
-    dataTypes: ['email', 'nom', 'prénom', 'Téléphone', "Informations de compte fidélité"],
+    dataTypes: ['email', 'nom', 'prénom', 'Téléphone', 'Informations de compte fidélité'],
     country: 'France',
     source: 'https://frenchbreaches.com/alertes/kfc-france-mnro510z9e1zrnvv2y8,
   },
