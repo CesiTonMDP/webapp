@@ -41,7 +41,7 @@ export const recentBreaches: BreachEntry[] = [
     records: 1000000,
     dataTypes: ['email', 'nom', 'prénom', 'Téléphone', 'Informations de compte fidélité'],
     country: 'France',
-    source: 'https://frenchbreaches.com/alertes/kfc-france-mnro510z9e1zrnvv2y8,
+    source: 'https://frenchbreaches.com/alertes/kfc-france-mnro510z9e1zrnvv2y8',
   },
   {
     company: 'Direction Générale des Finances Publiques',
